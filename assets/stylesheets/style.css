@@ -136,7 +136,6 @@ body.appear #container {
   position: fixed;
   background-image: url("../images/olive.png");
   background-size: cover;
-
   width: 70px;
   height: 70px;
   top: 20px;
@@ -155,12 +154,16 @@ body.appear #container {
 }
 
 .p-statement__texts {
-  text-align: initial;
-  padding-top: 180px;
+  text-align: center;
+  /* padding-top: 180px; */
+}
+.p-statement__texts {
+  height: 450px;
 }
 
 .p-statement__textTitle {
   font-size: 28px;
+  height: 200px;
 }
 
 /*スクロールダウン*/
