@@ -482,7 +482,7 @@ small {
   .p-bgImage {
     /* position: fixed;
     content: ""; */
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
   }
   .p-bgImage::before {
     background-size: contain;
