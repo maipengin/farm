@@ -476,25 +476,20 @@ small {
   .p-bgImage {
     background-attachment: fixed;
   }
-}
 
-@media screen and (max-width: 768px) {
-  .p-bgImage {
-    /* position: fixed;
-    content: ""; */
-    background-attachment: fixed;
-  }
-  /* .p-bgImage::before {
-    background-size: contain;
-    background-repeat: no-repeat;
+  .p-bgImage::before {
+    background-size: cover;
+
     content: "";
     display: block;
     position: fixed;
-    top: 0;
-    left: 0;
     z-index: -1;
-  } */
+    width: 100%;
+    height: 100vh;
+  }
+}
 
+@media screen and (max-width: 768px) {
   .p-header {
     position: fixed;
     background-image: url("../images/olive.png");
