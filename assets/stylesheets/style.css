@@ -486,6 +486,7 @@ small {
   }
   .p-bgImage::before {
     background-size: contain;
+    -webkit-background-size: contain;
     background-repeat: no-repeat;
   }
 
