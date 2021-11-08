@@ -479,10 +479,12 @@ small {
 }
 
 @media screen and (max-width: 768px) {
-  .p-bgImage::before {
+  .p-bgImage {
     /* position: fixed;
     content: ""; */
     background-attachment: fixed;
+  }
+  .p-bgImage::before {
     background-size: contain;
     background-repeat: no-repeat;
   }
