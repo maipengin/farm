@@ -491,6 +491,10 @@ small {
     display: contents;
     line-height: 3;
   }
+  .p-statement__textTop {
+    margin-top: 0;
+  }
+
   .p-statement__texts {
     margin: 80px auto 0;
   }
