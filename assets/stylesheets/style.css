@@ -485,10 +485,8 @@ small {
     background-attachment: fixed;
   }
   .p-bgImage::before {
-    background-size: cover;
-    -webkit-background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    content: "";
   }
 
   .p-header {
