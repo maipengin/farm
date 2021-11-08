@@ -158,10 +158,12 @@ body.appear #container {
 
 .p-statement__texts {
   text-align: start;
-  /* padding-top: 180px; */
 }
 .p-statement__texts {
   height: 450px;
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+  margin: auto;
 }
 
 .p-statement__textTitle {
@@ -252,9 +254,9 @@ body.appear #container {
   display: table;
   background-position: center;
   background-repeat: no-repeat;
-  /* -webkit-background-size: cover;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover; */
+  -o-background-size: cover;
   background-size: cover;
   opacity: 1;
 }
@@ -500,6 +502,7 @@ small {
   .p-topics__title {
     padding: 0 0 50px;
     margin: 0 auto;
+    height: 250px;
   }
   .p-topics__pic {
     /* width: 100%; */
