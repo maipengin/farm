@@ -482,9 +482,9 @@ small {
   .p-bgImage {
     /* position: fixed;
     content: ""; */
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
   }
-  .p-bgImage::before {
+  /* .p-bgImage::before {
     background-size: contain;
     background-repeat: no-repeat;
     content: "";
@@ -493,7 +493,7 @@ small {
     top: 0;
     left: 0;
     z-index: -1;
-  }
+  } */
 
   .p-header {
     position: fixed;
