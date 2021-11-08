@@ -166,6 +166,11 @@ body.appear #container {
   margin: auto;
 }
 
+.p-statement__textTop {
+  font-size: 28px;
+  margin-top: -100px;
+}
+
 .p-statement__textTitle {
   font-size: 28px;
   /* height: 200px; */
@@ -265,7 +270,6 @@ body.appear #container {
   vertical-align: middle;
   text-align: center;
   margin: 0;
-
   padding: 150px 20px 0;
 }
 
@@ -400,6 +404,7 @@ body.appear #container {
 }
 
 .p-topics__title {
+  height: 200px;
   font-size: 30px;
   padding-right: 70px;
   /* -ms-writing-mode: tb-rl; */
