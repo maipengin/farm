@@ -487,6 +487,12 @@ small {
   .p-bgImage::before {
     background-size: contain;
     background-repeat: no-repeat;
+    content: "";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
   }
 
   .p-header {
