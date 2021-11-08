@@ -479,6 +479,10 @@ small {
 }
 
 @media screen and (max-width: 768px) {
+  .p-bgImage {
+    background-attachment: fixed;
+  }
+
   .p-header {
     position: fixed;
     background-image: url("../images/olive.png");
