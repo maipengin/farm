@@ -488,6 +488,7 @@ small {
     background-size: contain;
     -webkit-background-size: contain;
     background-repeat: no-repeat;
+    content: "";
   }
 
   .p-header {
