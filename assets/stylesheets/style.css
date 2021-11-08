@@ -474,7 +474,7 @@ small {
 
 @media screen and (min-width: 768px) {
   .p-bgImage {
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
   }
 
   .p-bgImage::before {
