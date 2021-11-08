@@ -451,8 +451,8 @@ body.appear #container {
 .l-footer__logo {
   background-image: url("../images/olive.png");
   background-size: cover;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   margin: 0 auto;
 }
 
