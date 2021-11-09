@@ -254,7 +254,7 @@ body.appear #container {
 }
 .p-bgImage {
   width: 100%;
-  min-height: 800px;
+  height: 100vh;
   color: #fff;
   display: table;
   background-position: center;
